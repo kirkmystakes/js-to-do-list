@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 400px;
+    width: 600px;
+    margin: 100px auto;
+    border: 1px solid black;
+    background-color: bisque;
+}
+form {
+    margin: 20px;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.task-list {
+    width: 300px;
+    margin: 10px auto;
+    background-color: rgba(240, 255, 255, 0.607);
+    
+}
+li {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    font-size: 17px;
+    list-style-type: none;
+}
+
